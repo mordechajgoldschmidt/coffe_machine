@@ -2,10 +2,10 @@ from data import MENU, resources
 
 
 def insert_coins():
-    quarters = float(input("How many quarters? ")) * 0.25
-    dimes = float(input("How many dimes? ")) * 0.1
-    nickles = float(input("How many nickles? ")) * 0.05
-    pennies = float(input("How many pennies? ")) * 0.01
+    quarters = int(input("How many quarters? ")) * 0.25
+    dimes = int(input("How many dimes? ")) * 0.1
+    nickles = int(input("How many nickles? ")) * 0.05
+    pennies = int(input("How many pennies? ")) * 0.01
     coin_list = [quarters, dimes, nickles, pennies]
     return coin_list
 
