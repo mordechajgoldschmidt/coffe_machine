@@ -33,7 +33,7 @@ def coffee_machine():
     coffee_left = resources["coffee"]
 
     machine_on = True
-    while machine_on == True:
+    while machine_on:
         user_input = input("What would you like? (espresso/latte/cappuccino): ")
         if user_input == "off":
             print("AUTODESTRUCTION IN 10 SECONDS.")
